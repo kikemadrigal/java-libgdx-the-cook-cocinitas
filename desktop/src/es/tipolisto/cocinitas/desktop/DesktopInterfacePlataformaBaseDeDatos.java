@@ -36,7 +36,7 @@ public class DesktopInterfacePlataformaBaseDeDatos implements InterfacePlataform
         try {
             Class.forName("org.sqlite.JDBC");
             //conexion = DriverManager.getConnection("jdbc:sqlite:src/databases/cocina.db");
-            conexion = DriverManager.getConnection("jdbc:sqlite:assets/databases/cocina.db");
+            conexion = DriverManager.getConnection("jdbc:sqlite:databases/cocina.db");
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

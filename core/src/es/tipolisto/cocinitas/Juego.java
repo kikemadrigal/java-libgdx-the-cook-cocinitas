@@ -13,7 +13,7 @@ public class Juego extends Game {
 	public Juego(InterfacePlataformaBaseDeDatos interfacePlataformaBaseDeDatos){
 		this.interfacePlataformaBaseDeDatos=interfacePlataformaBaseDeDatos;
 	}
-	//public Juego(){}
+	public Juego(){}
 	//Para almacenar las pantallas:
 	private Map<Integer, PantallaAbstracta> hasMapPantalla;
 	@Override

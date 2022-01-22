@@ -20,9 +20,44 @@ Pero que casualidad, no te queda ningún alimento, tienes que ir al supermercado
 
 The cook es un proyecto java-libgdx que utiliza el gestor de dependencias gradle.
 
-Puedes abrir este proyecto con eclipse, Intelly idea, netbeans o android studio
+Puedes abrir este proyecto con android studio, eclipse, Intelly idea y netbeans
+
+Se dá por hecho que tiene java instalado y configurado en las variables de entorno.
+
+Aunque pondré unas notas sobre eclipse y su complemto android developmet tools es muy aconsejable utilizar android studio para trabajar con los proyectos de libgdx.
+
+# Android studio
+
+Si quieres exportar tus juegos a Android, tendrás que Instalar Android studio que tiene incorporado el Android sdk, para ver el directorio donde lo instala selecciona en el menú principal “sdk Manager”:
+
+<img src="docs/android1.PNG" width="300px" />
+
+En mi caso está instalado en la ruta: C:\Users\casa\AppData\Local\Android\Sdk
+
+<img src="docs/android2.PNG" width="300px" />
 
 
+Si quieres exportar tus juegos a HTML tendrás que descargarte GWT: http://www.gwtproject.org/  procura ponerlo en una ruta de tu pc fácil de encontrar, también que tendrás que configurar dentro de Android studio 
+
+<img src="docs/android3.PNG" width="300px" />
+
+Abre android studio y pincha en open, selecciona la carpeta donde está el proyecto:
+
+<img src="docs/android4.PNG" width="300px" />
+
+Un vez descargadas todas las dependencias de libgdx tenemos que pinchar con el botón derecho en DesktopLauncher.java->Run DesktopLauncher.java
+
+<img src="docs/android5.PNG" width="300px" />
+
+
+Pero nos genera un error ya que los recursos según la documentación de libgx tienen que estar dentro de la carpeta android/assets, para eso pinchamos en Edit configuration y le ponemos la ruta correcta:
+
+<img src="docs/android6.PNG" width="500px" />
+
+<img src="docs/android7.PNG" width="500px" />
+
+
+<br /><br /><br /><br /><br /><br />
 # Eclipse
 
 Pincha en File->Import
